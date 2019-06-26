@@ -78,6 +78,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := uceShimService
 LOCAL_MODULE_OWNER := leeco
 LOCAL_SRC_FILES := proprietary/app/uceShimService/uceShimService.apk
+LOCAL_SRC_FILES := proprietary/app/ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -89,6 +90,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := CNEService
 LOCAL_MODULE_OWNER := leeco
 LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
+LOCAL_SRC_FILES := proprietary/app/imssettings/imssettings.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
